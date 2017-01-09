@@ -1,0 +1,250 @@
+
+body {
+  margin: 0;
+}
+
+
+
+#portada {
+  height: 700px;
+}
+
+.inner {
+  max-width: 700px;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.innerform{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.img {
+  margin-left: 30px;
+  width: 50%;
+  position: relative;
+  transition-duration: .5s;
+
+}
+
+.img:hover{
+  transform: scale(1.1);
+
+
+}
+
+.contenido {
+  font-family: "Lato";
+  text-align: right;
+  width: 50%;
+  margin-right: 40px;
+  position: relative;
+}
+
+.contenido h1{
+  font-size: 30px;
+}
+
+.contenido p{
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+}
+
+.contenido .loading{
+  position: absolute;
+  top: 93px;
+  left: 322px;
+}
+
+.contenido .block{
+  display: block;
+}
+
+.boton {
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+  color: #55acee;
+  border: 2px #55acee solid;
+  position: relative;
+}
+
+.boton:hover {
+  background-color: #55acee;
+  color: #fff
+}
+
+footer{
+  padding-top: 20px;
+  background: #e5474b;
+  font-family: "Lato";
+  height: 800px;
+  color: white;
+
+}
+
+
+
+.email {
+  float: right;
+}
+
+.division {
+  display: flex;
+  justify-content: space-between;
+}
+
+form h2 {
+  font-size: 40px;
+}
+
+.izquierda, .derecha {
+  width: 50%;
+}
+
+.derecha {
+    margin-left: 50px;
+}
+
+.izquierda label, .derecha label, .mensaje label{
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14.5px;
+}
+
+footer input {
+  background: none;
+  border: 3px solid rgba(255, 255, 255, 0.25);
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mensaje {
+  margin-top: 50px;
+}
+
+.mensaje input{
+  padding: 100px 0;
+}
+
+footer .enviar {
+  margin-top: 50px;
+  width: auto;
+  color: white;
+  padding: 0 29px;
+  font-size: 13px;
+  height: 45px;
+  font-family: "Lato";
+  border-color: white;
+  font-weight: bold;
+}
+
+input:focus {
+  border-color: white;
+  outline: none
+}
+
+input[type="submit"]:hover{
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.redes_sociales{
+  margin-top: 100px;
+  border-top: 1px solid white;
+}
+
+.redes_sociales ul{
+  text-align: center;
+}
+
+.redes_sociales img {
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 650px){
+  #portada{
+    height: 600px;
+  }
+
+  #portada .inner{
+    display: block;
+    margin: 0;
+  }
+
+  .img{
+    position: relative;
+    bottom: 170px;
+    width: auto;
+    text-align: center;
+    margin: 0;
+  }
+
+  .img img{
+    width: 200px;
+  }
+
+  .contenido {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    width: auto;
+    margin: 0;
+  }
+
+  .contenido p{
+    display: block;
+  }
+
+  footer{
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+
+  }
+
+  .division{
+    display: block;
+    text-align: center;
+  }
+
+  .derecha {
+    margin: 20px 0 0 0;
+    width: auto;
+  }
+
+  .izquierda{
+    width: auto;
+  }
+
+.redes_sociales ul{
+  padding: 0;
+}
+
+
+
+.redes_sociales{
+  margin-top: 100px;
+}
+footer .enviar {
+  width: 100%;
+  display: block;
+}
+.boton{
+  display: block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+}
